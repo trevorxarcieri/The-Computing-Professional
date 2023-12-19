@@ -1,0 +1,495 @@
+% This file was converted to LaTeX by Writer2LaTeX ver. 1.9.9
+% see http://writer2latex.sourceforge.net for more info
+\documentclass{article}
+\usepackage{calc,amsmath,amssymb,amsfonts}
+\usepackage[LGR,T1]{fontenc}
+\usepackage[greek,english]{babel}
+\usepackage[style=numeric,backend=biber]{biblatex}
+\date{2023-12-19}
+\begin{document}
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+THE HISTORY OF FREE AND OPEN-SOURCE SOFTWARE
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+Trevor Arcieri
+
+Computer Science 300: The Computing Professional
+
+November 22, 2023
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+\clearpage
+
+\ \ Open source software is a behemoth in today$\text{\textgreek{’}}$s software world, seen in the likes of Linux,
+Python, Git, ChromeOS, and Firefox. Even today$\text{\textgreek{’}}$s most widely used operating system,
+Android,\footnote{“Operating System Market Share Worldwide,” StatCounter Global Stats, 2023,
+https://gs.statcounter.com/os-market-share\#monthly-202111-202303.} is open source, built on the Linux kernel. 
+
+\ \ The premise sounds farcical: free software, for all to develop and use. How can free software available to all be
+viable in a capitalist society? How can its integrity be maintained when anyone can be a developer? The answer is
+simple: corporations stand to gain from continually developing the software since many use open-source liberally, and
+the software$\text{\textgreek{’}}$s integrity is maintained by groups of volunteers which approve changes and create
+releases, gaining experience and professional clout while having fun along the way. That leaves one question about open
+source unanswered: how has open source risen to its current ubiquity?
+
+\ \ Before addressing its history, it is crucial to define free and open-source software (FOSS). The Open Source
+Initiative defines FOSS as software that: allows for free redistribution, includes the source code, allows
+modifications and derived works to be distributed under the original license, may restrict source code distribution so
+long as the license allows the distribution of “patch files” to modify the program at build time, and has a license
+which does not discriminate against any person or group of persons, does not restrict program usage based off the field
+in which it is used, applies to all to whom the program is redistributed without the need of an additional license,
+does not depend on the program$\text{\textgreek{’}}$s being part of a particular software distribution, does not place
+restrictions on other software distributed along with the licensed software, and is not predicated on any individual
+technology.\footnote{“The Open Source Definition,” Open Source Initiative, February 22, 2023,
+https://opensource.org/osd/.}
+
+\ \ In short, FOSS can be described as software which may be acquired at no cost, with publicized source code, and
+without limitations on derived works. This last aspect is key to the open source definition, because it ensures that
+FOSS is always free, regardless of what software distribution it may be a part of, thus ensuring that all FOSS can be
+used in other FOSS projects, as well as in proprietary software. This provides a commercially-viable quality to FOSS:
+it can be used inside software which is not open source, which is the reason open-source lies at the core of so many
+modern commercial software products.
+
+\ \ So, how did FOSS begin? The history of sharing technologies tracks all the way back to the early 1900s in the
+automotive industry. In 1879, a man named George B. Selden filed for a patent on the 2-stroke gasoline engine. In 1899,
+he sold the patent to William C. Whitney, who created the Electric Vehicle Company (EVC). Selden and Whitney then began
+collecting royalties from automobile manufacturers using the 2-stroke engine in their vehicles. In 1903, Henry Ford,
+owner of Ford Motor Company, along with four other automobile manufacturers, contested a patent infringement suit from
+Selden and EVC. The ensuing legal battle would last eight years, with Ford ultimately coming out victorious in
+1911.\footnote{William Greenleaf and David L. Lewis, Monopoly on Wheels: Henry Ford and the Selden Automobile Patent
+(Detroit, MI: Wayne State University Press, 2011).}
+
+\ \ Following Ford$\text{\textgreek{’}}$s victory, an association which would come to be known as the Automobile
+Manufacturers Association was formed.\footnote{Tom Mahoney, The Story of George Romney: Builder, Salesman, Crusader
+(Whitefish, MT: Literary Licensing, 2012).} The association prescribed a cross-licensing agreement between
+participating auto manufacturers which allowed for the sharing of technology. Each company would develop its own
+technology and patents, allowing the other manufacturers to use them freely.\footnote{James J. Flink, The Car Culture
+(Cambridge, MA: MIT Press, 1987).} This thesis of developing technology and sharing between corporations to advance the
+industry via collaboration lies at the core of today$\text{\textgreek{’}}$s FOSS.
+
+\ \ The concept of free software was inherent to software$\text{\textgreek{’}}$s beginnings in academia. In the 1950s
+and 60s, software was largely used in cutting-edge areas of research. Just as most cutting-edge research topics, much
+of the work was done in coordination between academic and corporate researchers.\footnote{Catharina Maracke, “Free and
+Open Source Software and Frand‐based Patent Licenses,” The Journal of World Intellectual Property 22, no. 3–4 (2019):
+78–102, https://doi.org/10.1111/jwip.12114.} Thus, the software was often published in the public domain without any
+restrictions, making it shared even more liberally than modern FOSS. 
+
+\ \ Additionally, most contemporary source code was distributed alongside its machine code counterpart, because users
+would modify the source code to be used on different hardware or operating systems, as well as to fix issues and
+increase functionality for their application.\footnote{Eric von Hippel and Georg von Krogh, “Open Source Software and
+the $\text{\textgreek{‘}}$Private-Collective$\text{\textgreek{’}}$ Innovation Model: Issues for Organization Science,”
+Organization Science 14, no. 2 (April 1, 2003): 209–23, https://doi.org/10.1287/orsc.14.2.209.14992.} An early form of
+such open source software came to exist in the A-2 System developed at UNIVAC in 1953,\footnote{Paul E. Ceruzzi, A
+History of Modern Computing, 1945-1995 (Cambridge, MA: MIT Press, 1998).} based on the A-0 System developed by Grace
+Murray Hopper.\footnote{Richard K. Ridgway, “Compiling Routines,” Proceedings of the 1952 ACM National Meeting
+(Toronto) on  - ACM $\text{\textgreek{’}}$52, 1952, 1–5, https://doi.org/10.1145/800259.808980.} The source code was
+released alongside the A-2 System to customers who were invited to send their improvements back to
+UNIVAC,\footnote{Douglas Crockford, “Heresy \& Heretical Open Source: A Heretic$\text{\textgreek{’}}$s Perspective,”
+InfoQ, March 11, 2011, https://www.infoq.com/presentations/Heretical-Open-Source/.} encouraging community
+collaboration. Similarly, nearly all software distributed for IBM mainframe computers included source code.
+
+\ \ As software was distributed more widely, communities formed around the software to enhance collaborative development
+efforts. One notable example of these early open-source communities is SHARE, which was founded in 1955 by Los-Angeles
+users of the IBM 704 mainframe computer.\footnote{“Share (Computing),” Wikipedia, May 12, 2023,
+https://en.wikipedia.org/wiki/SHARE\_(computing).} SHARE$\text{\textgreek{’}}$s SHARE library allowed for the exchange
+of source code modifications between programmers, encouraging distributed development of the
+modifications.\footnote{David Gardner, “SHARE, IBM User Group, To Celebrate 50th Anniversary,” TechWeb News, August 17,
+2005.} In 1959, SHARE released its own SHARE Operating System for the IBM 709 mainframe computer, which was
+collaboratively developed as an improvement on an operating system from General Motors for the IBM 704.\footnote{“Share
+Operating System,” Wikipedia, August 13, 2023, https://en.wikipedia.org/wiki/SHARE\_Operating\_System.}
+
+\ \ Another such early open source community was the Digital Equipment Computer Users$\text{\textgreek{’}}$s Society
+(DECUS), a group of users of computers from the Digital Equipment Corporation,\footnote{“DECUS,” Wikipedia, June 10,
+2023, https://en.wikipedia.org/wiki/DECUS.} a major player in the early computer industry.\footnote{“Digital Equipment
+Corporation,” Wikipedia, November 19, 2023, https://en.wikipedia.org/wiki/Digital\_Equipment\_Corporation.} DECUS
+assembled a library of software from program submitters and distributed to any
+requesters,\footnote{“DECUSLIBrary.Compendium,” decuslib.com, 2023, http://www.decuslib.com/.} publishing catalogs of
+the available software annually.\footnote{DECUS, “DECUS\_Catalog\_PDP-11\_Aug78” (DECUS, August 1978).}
+
+\ \ A more generally-focused example of an open-source community was the Advanced Research Projects Agency Network
+(ARPANET). In 1969, it was erected as the “first transcontinental, high-speed computer network,” and would later be
+succeeded by the internet. The network linked together hundreds of universities, research laboratories, and
+corporations, allowing developers to share source code widely.\footnote{Hippel and Krogh, “Open Source Software.”}
+
+\ \ With this initial boom of free software, some issues began to appear. Operating systems and compilers were growing
+more complex, and the cost of software development saw a marked increase relative to hardware development. As some
+software began to be sold under restricted licenses, the industry faced fierce competition with software that came
+bundled with hardware. 
+
+\ \ However, this competition would be altered drastically. Leased machines required continuous software support without
+any continuous revenue, which encouraged companies to cease providing software improvements for free. Some customers
+that desired to modify software were against bundled software, since software products would allow more freedom in this
+regard. Finally, in 1969 the antitrust suit United States v. IBM resulted in the US striking down bundled software as
+anticompetitive.\footnote{Franklin M. Fisher, James W. Mackie, and Richard B. Mancke, essay, in IBM and the U.S. Data
+Processing Industry: An Economic History (Praeger, 1983), 176.} Thus, the technology market was left with a need to
+sell software and the market opening to do so, causing a stark increase in the amount of software sold as a product,
+still under restricted licenses.
+
+\ \ The software industry then faced a rather large hurdle: while software could be sold under a restricted license, it
+was unable to be copyrighted. Thus, a program could belong to a company, be loaned out for a prescribed usage by
+another company, but there was no intellectual property in a program. To address this issue, the US Congress released
+the 1974 US Commission on New Technological Uses of Copyrighted Works (CONTU), which established that source code is a
+proper subject of copyright. 
+
+\ \ Following, in the 1983 case Apple v. Franklin, a US appellate court decided that software machine code was valid
+under copyright as well. Ultimately, this provided computer programs the copyright status of literary works, enshrining
+the integrity of the intellectual property and licensing of software in legal doctrine.\footnote{Jan L. Nussbaum,
+“Apple Computer, Inc. v. Franklin Computer Corporation Puts the Byte Back into Copyright Protection for Computer
+Programs,” Golden Gate University Law Review 14, no. 2 (1984): 281–308.} With the newfound legal fortitude of programs,
+the paid software industry faced a massive boom, while free software saw a sharp decline.
+
+\ \ Many companies began charging for software licenses and legally restricting software development. In 1979, AT\&T
+began enforcing its licenses to prevent the free distribution of Unix and began selling licenses to use the software,
+which was previously used at no cost by the government and in academia.\footnote{Steven Weber, essay, in The Success of
+Open Source (Cambridge, MA: Harvard University Press, 2005), 38–44.} Similarly, in early 1983, IBM stopped distributing
+source code along with its software products altogether.\footnote{DISTRIBUTION OF IBM LICENSED PROGRAMS AND LICENSED
+PROGRAM MATERIALS AND MODIFIED AGREEMENT FOR IBM LICENSED PROGRAMS, February 8, 1983, IBM,
+http://landley.net/history/mirror/ibm/oco.html.} This spurned a trend of corporations refrained from distributing
+source code alongside their machine code to increase revenues.
+
+\ \ As companies began to restrict source code, a myriad of methods for sharing source code among hobbyist programmers
+came to fruition. In the early 1980s, DECUS began assembling entire distributions of submitted programs on magnetic
+tapes, known as the DECUS tapes, which could be disseminated to DECUS members upon request.\footnote{“The DECUS Tapes,”
+Index of /pub/academic/computer-science/history/PDP-11/RSX/decus, accessed November 22, 2023,
+http://www.ibiblio.org/pub/academic/computer-science/history/pdp-11/rsx/decus/.} With computer networks growing in
+popularity and usage in the early 1980s, virtual sharing systems began to flourish as well.
+
+\ \ Bulletin Board System (BBS) networks were a prime example. These were servers that allowed users to connect via
+terminal, log in, and exchange software and data on public message boards.\footnote{Frank Derfler, “Dial Up Directory,”
+Kilobaud Microcomputing Magazine, April 1, 1980.} One of the most popular brands of BBS was WWIV, which distributed its
+source code along with the BBS, allowing administrators to modify the BBS to their specific needs. WWIVnet was a
+network for WWIV BBSes, allowing thousands to be linked to the same network at once, thus enhancing the potential for
+virtual collaboration on software.\footnote{Wayne Bell, “The Official History of WWIV,” WWIVNEWS 1, no. 1 (January
+1991).}
+
+\ \ A more decentralized version of BBS, User$\text{\textgreek{’}}$s Network (USENET), was developed in
+1980.\footnote{Erik Gregersen, “Usenet,” Encyclopædia Britannica, January 17, 2023,
+https://www.britannica.com/technology/USENET.} Similarly, it allowed reading and posting on public message boards, but
+posts were stored and forwarded between a changing set of servers. Unix-to-Unix Copy Protocol (UUCP) was used to
+interconnect the servers and to connect them to users, creating a worldwide network of computers connected by UUCP,
+known as UUCPnet.\footnote{“Usenet,” Wikipedia, November 18, 2023, https://en.wikipedia.org/wiki/Usenet.} UUCPnet thus
+allowed for widespread, global software collaboration.
+
+\ \ Armed with these collaborative development networks, Richard Stallman anounced the collaborative GNU Project in
+1983. In his announcement, he stated his reasoning for the GNU project: he believed any non-free software to be
+unethical, and wanted to develop Unix-compatible operating system made of entirely free software that he could use
+without moral conflict.\footnote{Richard Stallman, “Initial Announcement - GNU Project - Free Software Foundation,”
+Initial Announcement, September 27, 1983, https://www.gnu.org/gnu/initial-announcement.html.} This marked the beginning
+of the first entirely free operating system and, arguably, one of the most influential open source projects in history.
+
+\ \ Following his announcement of the GNU project, Stallman published the GNU Manifesto in 1985, outlining the purpose
+of the GNU project in creating free software and requesting assistance in the project$\text{\textgreek{’}}$s
+development.\footnote{Richard Stallman, “The GNU Manifesto - GNU Project - Free Software Foundation,” The GNU
+Manifesto, March 1985, https://www.gnu.org/gnu/manifesto.en.html.} Later that year, Stallman established the Free
+Software Foundation (FSF), dedicated to promoting free software.\footnote{William L Hosch, “Free Software Foundation,”
+Encyclopædia Britannica, May 11, 2023, https://www.britannica.com/topic/Free-Software-Foundation.} In 1989, the FSF
+released the GNU General Public License (GPL), which not only ensured that GNU and any works derived from it would stay
+free in perpetuity, but also was made freely available to be used in other free software projects.\footnote{“GNU
+General Public License,” The GNU Operating System and the Free Software Movement, February 1989,
+https://www.gnu.org/licenses/old-licenses/gpl-1.0.txt.} This became known as copyleft, where a copyright license was
+used to ensure the free distribution of the licensed software, rather than limit to limit its distribution as copyright
+is intended for. Importantly, copyleft does not restrict entities from charging for the software, but ensures that
+users have the freedom to distribute and modify the software.\footnote{“What Is Copyleft? - GNU Project - Free Software
+Foundation,” What is Copyleft?, 2022, https://www.gnu.org/licenses/copyleft.html.}
+
+\ \ The GNU kernel, GNU Hurd, was delayed significantly, and was still unimplemented when most other aspects of GNU had
+been completed in 1991. Seeking a fully free operating system, Linus Torvalds released the first open-source kernel,
+Linux, in early 1992 under the GNU GPL.\footnote{“RELEASE NOTES FOR LINUX v0.12,” Mirrors.kernel.org, 1992,
+https://mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0.12.} Thus, the first completely free
+operating system was born, and Linus Torvalds and Richard Stallman$\text{\textgreek{’}}$s names were cemented in
+history. The GNU/Linux operating system played an integral role in proving the viability of collaborative software
+development, as both GNU and Linux utilized the efforts of many volunteer developers. Crucially, as businesses began to
+adopt develop on top of GNU/Linux in the 1990s and 2000s, the operating system proved the commercial integrity of FOSS.
+
+\ \ Much of the GNU and Linux projects can be described as free software, since this is the name Stallman coined in 1985
+with the Free Software Foundation. The term “open source” was not created until 1998, at a strategy session in Palo
+Alto, California. It was held after an announcement of the release of the Netscape source code, the company behind the
+most prominent contemporary web browser. The strategy session was held with the thought that the publicity surrounding
+the Netscape announcement provided a unique opportunity to promote an open development
+process.\footnote{Opensource.org, “History of the OSI,” Open Source Initiative, September 19, 2006,
+https://opensource.org/history/.}
+
+\ \ The conferees sought to create a single label that identified the approach of community-sourced code improvements
+while expressing the commercial usability of such an approach, without the extreme ideology (that all software should
+entirely be free) behind the Free Software Movement. Christine Peterson, in attendance, proposed the term “open
+source.”\footnote{Opensource.org, “History of the OSI.”} This term accomplished the goal in its entirety: “open”
+appears much more commercial-friendly than “free,” and “open” does not carry the ideological baggage of “free.”
+
+\ \ Following the creation of “open source,” Linus Torvalds expressed his early support, greatly benefiting the
+rebranding effort.\footnote{Opensource.org, “History of the OSI.”} Richard Stallman, on the other hand, was against the
+term because it did not strictly advocate for the principle of free software, and remained in favor of the term “free
+software” to make that meaning clear.\footnote{Richard Stallman, “Why Open Source Misses the Point of Free Software -
+GNU Project - Free Software Foundation,” Why Open Source Misses the Point of Free Software, 2023,
+https://www.gnu.org/philosophy/open-source-misses-the-point.en.html.} An event organized in 1998 by Time
+O$\text{\textgreek{’}}$Rielly was slated to be called the “Freeware Summit,” but he renamed it to the “Open Source
+Summit,”\footnote{Guido van Rossum, “Open Source Summit Trip Report,” Open Source Summit LG \#28, May 1998,
+https://linuxgazette.net/issue28/rossum.html.} cementing the term “open source” in the popular mind.\footnote{B.
+Fitzgerald and P.J. Agerfalk, “The Mysteries of Open Source Software: Black and White and Red All Over?,” Proceedings
+of the 38th Annual Hawaii International Conference on System Sciences 8 (2005),
+https://doi.org/10.1109/hicss.2005.609.} Soon after the Open Source Summit, The Open Source Initiative was founded. The
+organization continues to educate and advocate for open source to this day.\footnote{Opensource.org, “History of the
+OSI.”}
+
+\ \ Now that open source had grown in popularity, a few large-scale FOSS projects began to spring up. One early project
+of note was the X Window System, created in 1984. It used a networking protocol to provided a basic FOSS framework for
+a multi-window computer GUI environment without mandating any particular UI inside the windows, using a keyboard and
+mouse as the interface.\footnote{Robert W. Scheifler and Jim Gettys, “The X Window System,” ACM Transactions on
+Graphics 5, no. 2 (1986): 79–109, https://doi.org/10.1145/22949.24053.} Another along this line was the GNU Network
+Object Model Environment (GNOME). GNOME was developed in 1997 as a FOSS successor to a mostly open-source desktop
+environment, KDE. GNOME is a full desktop environment with a free and complete set of applications that have a
+standardized UI,\footnote{Miguel de Icaza, “The GNOME Desktop Project.,” The GNOME Desktop Project., August 15, 1997,
+https://mail.gnome.org/archives/gtk-list/1997-August/msg00123.html.} and is still utilized in many major Linux
+distributions today.
+
+\ \ With substantial FOSS projects gaining traction, there was some early resistance to the movement. A series of legal
+battles were initiated by Microsoft-funded Unix and Linux distribution vendor SCO. One of the largest battles among
+these was SCO v. IBM, filed in 2003. In it, SCO alleged that in its contributions to the Linux kernel, IBM had copied
+intellectual property from the Unix kernel.\footnote{SCO GROUP, INC. v. INTERN. BUSINESS MACHINES CORP.
+(https://www.leagle.com/decision/infco20180102045 January 2, 2018).} The situation escalated quickly, with Red Hat and
+IBM taking legal action against SCO, SCO threatening legal action against Linux users without a Unix license, and SCO
+suing Novell who claimed they own the IP of the Unix kernel.
+
+\ \ In 2006, the SCO v. IBM trial date was vacated pending the results of SCO v. Novell.\footnote{SCO v. IBM.} Then, in
+2007, the court found that Novell, not SCO, owned the intellectual property rights over the Unix kernel,\footnote{John
+Markoff, “Judge Says Unix Copyrights Rightfully Belong to Novell,” The New York Times, August 11, 2007,
+https://www.nytimes.com/2007/08/11/technology/11novell.html.} and that SCO was “obligated to recognize Novell's waiver
+of SCO's claims against IBM.”\footnote{“Court Rules: Novell Owns the Unix and Unixware Copyrights! Novell Has Right to
+Waive!,” Groklaw, August 10, 2007, http://www.groklaw.net/article.php?story=20070810165237718.} \footnote{THE SCO
+GROUP, INC. v. NOVELL, INC. SCO Grp v. Novell Inc (https://www.leagle.com/decision/infdco20110204657 June 10,
+2010).}\ Further, following the court ruling, Novell stated they will not pursue legal action against Linux users,
+saying “We don't believe there is Unix in Linux.”\footnote{Elizabeth Montalbano, “Novell Won$\text{\textgreek{’}}$t
+Pursue Unix Copyrights,” PCWorld - Novell Won$\text{\textgreek{’}}$t Pursue Unix Copyrights, August 15, 2007,
+http://www.pcworld.com/article/id\%2C135959-c\%2Cunix/article.html.} Consequently, SCO filed for bankruptcy and the SCO
+v. IBM case was administratively closed. While the case did leave the legality of using the Linux kernel in tumult for
+many years, at its resolution the legality of the Linux kernel was definitive, and that of FOSS was greatly bolstered
+as a whole.
+
+\ \ Microsoft itself has a controversial history with FOSS. In the early 2000s, Microsoft was vehemently against FOSS,
+with its contemporary CEO, Steve Ballmer, publicly referring to Linux as a “malignant cancer.” In 2008, a week before
+he would retire, Bill Gates insisted to the leadership at Microsoft that they adopt open source. By 2012, Microsoft
+launched Microsoft Open Technologies Inc., with the goal of interfacing between Microsoft$\text{\textgreek{’}}$s
+proprietary software and other FOSS.\footnote{Shira Ovide, “Microsoft Dips Further into Open-Source,” The Wall Street
+Journal, April 17, 2012, https://www.wsj.com/articles/SB10001424052702304432704577347783238850756.} By 2014, Microsoft
+CEO Satya Nadella even announced Microsoft$\text{\textgreek{’}}$s reconciliation and further commitment to Linux,
+stating in a presentation “Microsoft loves Linux.”\footnote{Microsoft Windows Server Team, “Microsoft Loves Linux,”
+Microsoft Windows Server Blog, September 3, 2021,
+https://cloudblogs.microsoft.com/windowsserver/2015/05/06/microsoft-loves-linux/.}
+
+\ \ This brings the story to today, a time when Windows Subsystem for Linux can be installed freely to run Linux on any
+Windows operating system. The state of FOSS today is lively and ever-growing, with many developers contributing to FOSS
+in their free time to increase their technical acumen and rapport. The active state of FOSS today would not be possible
+without the intricate FOSS history it is built on. 
+
+\ \ FOSS had a long journey from beginnings in the automotive industry, to academic collaboration, to more closed-source
+software empowered by software copyrights. Even while closed-source was gaining popularity hobbyists continued sharing
+their programs, with Richard Stallman creating the GNU project, allowing for a fully free operating system when
+combined with Linus Torvalds$\text{\textgreek{’}}$s Linux. It was at this point that the term “open source” took off,
+and open source projects such as the X Window System and GNOME popped up. Some corporations such as SCO and Microsoft
+tried to push back against the movement, but all either relinquished or joined in. 
+
+\ \ Ultimately, its history led FOSS to become the behemoth it is today: healthy and providing a backbone to much of the
+software enjoyed by users the world over.
+
+\clearpage
+Bibliography
+
+“A-0 System.” Wikipedia, August 23, 2023. https://en.wikipedia.org/wiki/A-0\_System. 
+
+“Automobile Manufacturers Association.” Wikipedia, May 21, 2023. https://
+en.wikipedia.org/wiki/Automobile\_Manufacturers\_Association. 
+
+Bell, Wayne. “The Official History of WWIV.” WWIVNEWS 1, no. 1 (January 1991). 
+
+“Bulletin Board System.” Wikipedia, November 11, 2023. https://en.wikipe dia.org/wiki/Bulletin\_board\_system. 
+
+Ceruzzi, Paul E. A history of modern computing, 1945-1995. Cambridge, MA: MIT Press, 1998.
+
+“Court Rules: Novell Owns the Unix and Unixware Copyrights! Novell Has Right to Waive!” Groklaw, August 10, 2007.
+http://www.groklaw.net/article.ph p?story=20070810165237718. 
+
+Crockford, Douglas. “Heresy \& Heretical Open Source: A Heretic$\text{\textgreek{’}}$s Perspective.” InfoQ, March 11,
+2011. https://www.infoq.com/presentations/Heretical-Open-Source/. 
+
+DECUS. “DECUS\_Catalog\_PDP-11\_Aug78.” DECUS, August 1978. 
+
+“DECUS.” Wikipedia, June 10, 2023. https://en.wikipedia.org/wiki/DECUS. 
+
+“DECUSLIBrary.Compendium.” decuslib.com, 2023. http://www.decuslib. com/. 
+
+Derfler, Frank. “Dial Up Directory.” Kilobaud Microcomputing Magazine, April 1, 1980. 
+
+“Digital Equipment Corporation.” Wikipedia, November 19, 2023. https://
+en.wikipedia.org/wiki/Digital\_Equipment\_Corporation. 
+
+DISTRIBUTION OF IBM LICENSED PROGRAMS AND LICENSED PROGRAM MATERIALS AND MODIFIED AGREEMENT FOR IBM LICENSED PROGRAMS,
+February 8, 1983. IBM. http://landley.net/history/mirror/ibm/ oco.html. 
+
+Fisher, Franklin M., James W. Mackie, and Richard B. Mancke. Essay. In IBM and the U.S. Data Processing Industry: An
+Economic History, 176. Praeger, 1983. 
+
+Fitzgerald, B., and P.J. Agerfalk. “The Mysteries of Open Source Software: Black and White and Red All Over?”
+Proceedings of the 38th Annual Hawaii International Conference on System Sciences 8 (2005). https://doi.org/10.1109/
+hicss.2005.609. 
+
+Flink, James J. The car culture. Cambridge, MA: MIT Press, 1987. 
+
+Gardner, David. “SHARE, IBM User Group, To Celebrate 50th Anniversary.” TechWeb News, August 17, 2005. 
+
+“George B. Selden.” Wikipedia, March 23, 2023. https://en.wikipedia.org/ wiki/George\_B.\_Selden. 
+
+“GNU General Public License.” The GNU Operating System and the Free Software Movement, February 1989.
+https://www.gnu.org/licenses/old-licenses /gpl-1.0.txt. 
+
+Greenleaf, William, and David L. Lewis. Monopoly on wheels: Henry Ford and the Selden Automobile Patent. Detroit, MI:
+Wayne State University Press, 2011. 
+
+Gregersen, Erik. “Usenet.” Encyclopædia Britannica, January 17, 2023. https://www.britannica.com/technology/USENET. 
+
+Hippel, Eric von, and Georg von Krogh. “Open Source Software and the
+$\text{\textgreek{‘}}$Private-Collective$\text{\textgreek{’}}$ Innovation Model: Issues for Organization Science.”
+Organization Science 14, no. 2 (April 1, 2003): 209–23. https://doi.org/10.1287/orsc. 14.2.209.14992. 
+
+“History of Free and Open-Source Software.” Wikipedia, June 28, 2023.
+https://en.wikipedia.org/wiki/History\_of\_free\_and\_open-source\_software. 
+
+Hosch, William L. “Free Software Foundation.” Encyclopædia Britannica, May 11, 2023.
+https://www.britannica.com/topic/Free-Software-Foundation. 
+
+Icaza, Miguel de. “The GNOME Desktop Project.” The GNOME Desktop Project., August 15, 1997.
+https://mail.gnome.org/archives/gtk-list/1997-August/msg00123.html. 
+
+Mahoney, Tom. The story of George Romney: Builder, salesman, Crusader. Whitefish, MT: Literary Licensing, 2012. 
+
+Maracke, Catharina. “Free and Open Source Software and Frand‐based Patent Licenses.” The Journal of World Intellectual
+Property 22, no. 3–4 (2019): 78–102. https://doi.org/10.1111/jwip.12114. 
+
+Markoff, John. “Judge Says Unix Copyrights Rightfully Belong to Novell.” The New York Times, August 11, 2007.
+https://www.nytimes.com/2007/08/11 /technology/11novell.html. 
+
+Metz, Cade. “Meet Bill Gates, the Man Who Changed Open Source Software.” Wired, January 30, 2012.
+https://www.wired.com/2012/01/meet-bill-gates/. 
+
+Microsoft Windows Server Team. “Microsoft Loves Linux.” Microsoft Windows Server Blog, September 3, 2021.
+https://cloudblogs.microsoft.com/window sserver/2015/05/06/microsoft-loves-linux/. 
+
+Montalbano, Elizabeth. “Novell Won$\text{\textgreek{’}}$t Pursue Unix Copyrights.” PCWorld - Novell
+Won$\text{\textgreek{’}}$t Pursue Unix Copyrights, August 15, 2007. http://www.pcworld.
+com/article/id\%2C135959-c\%2Cunix/article.html. 
+
+Nussbaum, Jan L. “Apple Computer, Inc. v. Franklin Computer Corporation Puts the Byte Back into Copyright Protection for
+Computer Programs.” Golden Gate University Law Review 14, no. 2 (1984): 281–308. 
+
+Opensource.org. “History of the OSI.” Open Source Initiative, September 19, 2006. https://opensource.org/history/. 
+
+Opensource.org. “The Open Source Definition.” Open Source Initiative, February 22, 2023. https://opensource.org/osd/. 
+
+“Operating System Market Share Worldwide.” StatCounter Global Stats, 2023.
+https://gs.statcounter.com/os-market-share\#monthly-202111-202303. 
+
+Ovide, Shira. “Microsoft Dips Further into Open-Source.” The Wall Street Journal, April 17, 2012.
+https://www.wsj.com/articles/SB10001424052702304 432704577347783238850756. 
+
+“RELEASE NOTES FOR LINUX v0.12.” Mirrors.kernel.org, 1992. https://
+mirrors.edge.kernel.org/pub/linux/kernel/Historic/old-versions/RELNOTES-0. 12. 
+
+Ridgway, Richard K. “Compiling Routines.” Proceedings of the 1952 ACM national meeting (Toronto) on \ {}- ACM
+$\text{\textgreek{’}}$52, 1952, 1–5. https://doi.org/10.1145/ 800259.808980. 
+
+Scheifler, Robert W., and Jim Gettys. “The X Window System.” ACM Transactions on Graphics 5, no. 2 (1986): 79–109.
+https://doi.org/10.1145/229 49.24053. 
+
+SCO GROUP, INC. v. INTERN. BUSINESS MACHINES CORP. (https:// www.leagle.com/decision/infco20180102045 January 2, 2018). 
+
+“Share (Computing).” Wikipedia, May 12, 2023. https://en.wikipedia.org/ wiki/SHARE\_(computing). 
+
+“Share Operating System.” Wikipedia, August 13, 2023. https://en.wikipe dia.org/wiki/ SHARE\_Operating\_System. 
+
+Stallman, Richard. “Initial Announcement - GNU Project - Free Software Foundation.” Initial Announcement, September 27,
+1983. https://www.gnu.org/ gnu/initial-announcement.html. 
+
+Stallman, Richard. “The GNU Manifesto - GNU Project - Free Software Foundation.” The GNU Manifesto, March 1985.
+https://www.gnu.org/gnu/ manifesto.en.html. 
+
+Stallman, Richard. “Why Open Source Misses the Point of Free Software - GNU Project - Free Software Foundation.” Why
+Open Source Misses the Point of Free Software, 2023.
+https://www.gnu.org/philosophy/open-source-misses-the-point.en.html. 
+
+“The DECUS Tapes.” Index of /pub/academic/computer-science/history/ PDP-11/RSX/decus. Accessed November 22, 2023.
+http://www.ibiblio.org/ pub/academic/computer-science/history/pdp-11/rsx/decus/. 
+
+THE SCO GROUP, INC. v. NOVELL, INC. SCO Grp v. Novell Inc (https://www.leagle.com/decision/infdco20110204657 June 10,
+2010). 
+
+“Usenet.” Wikipedia, November 18, 2023. https://en.wikipedia.org/wiki/ Usenet. 
+
+van Rossum, Guido. “Open Source Summit Trip Report.” Open Source Summit LG \#28, May 1998.
+https://linuxgazette.net/issue28/rossum.html. 
+
+Weber, Steven. Essay. In The Success of Open Source, 38–44. Cambridge, MA: Harvard University Press, 2005. 
+
+“What Is Copyleft? - GNU Project - Free Software Foundation.” What is Copyleft?, 2022.
+https://www.gnu.org/licenses/copyleft.html. 
+
+
+\bigskip
+
+
+\bigskip
+\end{document}
